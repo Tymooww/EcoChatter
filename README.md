@@ -17,3 +17,5 @@ Running the local models:
 1. Install Ollama at https://ollama.com/
 2. Install Llama 3 in the Windows terminal: ollama run llama3 (5GB storage required)
 3. Install Llama 4 Scout in the Windows terminal: ollama run llama4:scout (67GB storage required)
+
+The program has been built in iterations and each major iteration resulted in a new notebook. If you want to run the complete program use the generateBiodiversityReport notebook, if you want to understand the inner workings per component better use the greeneryDataForNeighborhood (V1 is a JSON agent, V2 is a SQL agent) and retrieveGreeneryGoals (RAG system) notebooks. 
